@@ -13,6 +13,21 @@
 		BA4E0A831CB4D89E00339D7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4E0A811CB4D89E00339D7D /* Main.storyboard */; };
 		BA4E0A851CB4D89E00339D7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4E0A841CB4D89E00339D7D /* Assets.xcassets */; };
 		BA4E0A881CB4D89E00339D7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4E0A861CB4D89E00339D7D /* LaunchScreen.storyboard */; };
+		BA4E0A9C1CB4D8EB00339D7D /* guide0.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BA4E0A901CB4D8EB00339D7D /* guide0.mp4 */; };
+		BA4E0A9D1CB4D8EB00339D7D /* guide0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA4E0A911CB4D8EB00339D7D /* guide0@2x.png */; };
+		BA4E0A9E1CB4D8EB00339D7D /* guide1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BA4E0A921CB4D8EB00339D7D /* guide1.mp4 */; };
+		BA4E0A9F1CB4D8EB00339D7D /* guide1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA4E0A931CB4D8EB00339D7D /* guide1@2x.png */; };
+		BA4E0AA01CB4D8EB00339D7D /* guide2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BA4E0A941CB4D8EB00339D7D /* guide2.mp4 */; };
+		BA4E0AA11CB4D8EB00339D7D /* guide2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA4E0A951CB4D8EB00339D7D /* guide2@2x.png */; };
+		BA4E0AA21CB4D8EB00339D7D /* guide3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BA4E0A961CB4D8EB00339D7D /* guide3.mp4 */; };
+		BA4E0AA31CB4D8EB00339D7D /* guide3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA4E0A971CB4D8EB00339D7D /* guide3@2x.png */; };
+		BA4E0AA41CB4D8EB00339D7D /* guideImage0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA4E0A981CB4D8EB00339D7D /* guideImage0@2x.png */; };
+		BA4E0AA51CB4D8EB00339D7D /* guideImage1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA4E0A991CB4D8EB00339D7D /* guideImage1@2x.png */; };
+		BA4E0AA61CB4D8EB00339D7D /* guideImage2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA4E0A9A1CB4D8EB00339D7D /* guideImage2@2x.png */; };
+		BA4E0AA71CB4D8EB00339D7D /* guideImage3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA4E0A9B1CB4D8EB00339D7D /* guideImage3@2x.png */; };
+		BA4E0AA91CB4D8F700339D7D /* guide_handles.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA4E0AA81CB4D8F700339D7D /* guide_handles.plist */; };
+		BAF952741CB4E7C000A2B01A /* GuidePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF952731CB4E7C000A2B01A /* GuidePageViewController.m */; };
+		BAF9527A1CB4EB9200A2B01A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF952791CB4EB9200A2B01A /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +41,22 @@
 		BA4E0A841CB4D89E00339D7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA4E0A871CB4D89E00339D7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA4E0A891CB4D89E00339D7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA4E0A901CB4D8EB00339D7D /* guide0.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = guide0.mp4; sourceTree = "<group>"; };
+		BA4E0A911CB4D8EB00339D7D /* guide0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guide0@2x.png"; sourceTree = "<group>"; };
+		BA4E0A921CB4D8EB00339D7D /* guide1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = guide1.mp4; sourceTree = "<group>"; };
+		BA4E0A931CB4D8EB00339D7D /* guide1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guide1@2x.png"; sourceTree = "<group>"; };
+		BA4E0A941CB4D8EB00339D7D /* guide2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = guide2.mp4; sourceTree = "<group>"; };
+		BA4E0A951CB4D8EB00339D7D /* guide2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guide2@2x.png"; sourceTree = "<group>"; };
+		BA4E0A961CB4D8EB00339D7D /* guide3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = guide3.mp4; sourceTree = "<group>"; };
+		BA4E0A971CB4D8EB00339D7D /* guide3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guide3@2x.png"; sourceTree = "<group>"; };
+		BA4E0A981CB4D8EB00339D7D /* guideImage0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guideImage0@2x.png"; sourceTree = "<group>"; };
+		BA4E0A991CB4D8EB00339D7D /* guideImage1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guideImage1@2x.png"; sourceTree = "<group>"; };
+		BA4E0A9A1CB4D8EB00339D7D /* guideImage2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guideImage2@2x.png"; sourceTree = "<group>"; };
+		BA4E0A9B1CB4D8EB00339D7D /* guideImage3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guideImage3@2x.png"; sourceTree = "<group>"; };
+		BA4E0AA81CB4D8F700339D7D /* guide_handles.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = guide_handles.plist; sourceTree = "<group>"; };
+		BAF952721CB4E7C000A2B01A /* GuidePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuidePageViewController.h; sourceTree = "<group>"; };
+		BAF952731CB4E7C000A2B01A /* GuidePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuidePageViewController.m; sourceTree = "<group>"; };
+		BAF952791CB4EB9200A2B01A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAF9527A1CB4EB9200A2B01A /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +74,7 @@
 		BA4E0A6C1CB4D89E00339D7D = {
 			isa = PBXGroup;
 			children = (
+				BAF952791CB4EB9200A2B01A /* AVFoundation.framework */,
 				BA4E0A771CB4D89E00339D7D /* 仿闲鱼app的引导页 */,
 				BA4E0A761CB4D89E00339D7D /* Products */,
 			);
@@ -58,10 +91,13 @@
 		BA4E0A771CB4D89E00339D7D /* 仿闲鱼app的引导页 */ = {
 			isa = PBXGroup;
 			children = (
+				BA4E0A8F1CB4D8D800339D7D /* Resourse */,
 				BA4E0A7B1CB4D89E00339D7D /* AppDelegate.h */,
 				BA4E0A7C1CB4D89E00339D7D /* AppDelegate.m */,
 				BA4E0A7E1CB4D89E00339D7D /* ViewController.h */,
 				BA4E0A7F1CB4D89E00339D7D /* ViewController.m */,
+				BAF952721CB4E7C000A2B01A /* GuidePageViewController.h */,
+				BAF952731CB4E7C000A2B01A /* GuidePageViewController.m */,
 				BA4E0A811CB4D89E00339D7D /* Main.storyboard */,
 				BA4E0A841CB4D89E00339D7D /* Assets.xcassets */,
 				BA4E0A861CB4D89E00339D7D /* LaunchScreen.storyboard */,
@@ -77,6 +113,26 @@
 				BA4E0A791CB4D89E00339D7D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA4E0A8F1CB4D8D800339D7D /* Resourse */ = {
+			isa = PBXGroup;
+			children = (
+				BA4E0AA81CB4D8F700339D7D /* guide_handles.plist */,
+				BA4E0A901CB4D8EB00339D7D /* guide0.mp4 */,
+				BA4E0A911CB4D8EB00339D7D /* guide0@2x.png */,
+				BA4E0A921CB4D8EB00339D7D /* guide1.mp4 */,
+				BA4E0A931CB4D8EB00339D7D /* guide1@2x.png */,
+				BA4E0A941CB4D8EB00339D7D /* guide2.mp4 */,
+				BA4E0A951CB4D8EB00339D7D /* guide2@2x.png */,
+				BA4E0A961CB4D8EB00339D7D /* guide3.mp4 */,
+				BA4E0A971CB4D8EB00339D7D /* guide3@2x.png */,
+				BA4E0A981CB4D8EB00339D7D /* guideImage0@2x.png */,
+				BA4E0A991CB4D8EB00339D7D /* guideImage1@2x.png */,
+				BA4E0A9A1CB4D8EB00339D7D /* guideImage2@2x.png */,
+				BA4E0A9B1CB4D8EB00339D7D /* guideImage3@2x.png */,
+			);
+			path = Resourse;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +192,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA4E0AA71CB4D8EB00339D7D /* guideImage3@2x.png in Resources */,
+				BA4E0AA61CB4D8EB00339D7D /* guideImage2@2x.png in Resources */,
+				BA4E0AA41CB4D8EB00339D7D /* guideImage0@2x.png in Resources */,
+				BA4E0AA21CB4D8EB00339D7D /* guide3.mp4 in Resources */,
+				BA4E0A9F1CB4D8EB00339D7D /* guide1@2x.png in Resources */,
+				BA4E0AA51CB4D8EB00339D7D /* guideImage1@2x.png in Resources */,
+				BA4E0AA01CB4D8EB00339D7D /* guide2.mp4 in Resources */,
 				BA4E0A881CB4D89E00339D7D /* LaunchScreen.storyboard in Resources */,
+				BA4E0A9D1CB4D8EB00339D7D /* guide0@2x.png in Resources */,
+				BA4E0AA91CB4D8F700339D7D /* guide_handles.plist in Resources */,
 				BA4E0A851CB4D89E00339D7D /* Assets.xcassets in Resources */,
 				BA4E0A831CB4D89E00339D7D /* Main.storyboard in Resources */,
+				BA4E0AA31CB4D8EB00339D7D /* guide3@2x.png in Resources */,
+				BA4E0A9E1CB4D8EB00339D7D /* guide1.mp4 in Resources */,
+				BA4E0A9C1CB4D8EB00339D7D /* guide0.mp4 in Resources */,
+				BA4E0AA11CB4D8EB00339D7D /* guide2@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +220,7 @@
 			files = (
 				BA4E0A801CB4D89E00339D7D /* ViewController.m in Sources */,
 				BA4E0A7D1CB4D89E00339D7D /* AppDelegate.m in Sources */,
+				BAF952741CB4E7C000A2B01A /* GuidePageViewController.m in Sources */,
 				BA4E0A7A1CB4D89E00339D7D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +333,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "仿闲鱼app的引导页/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zhenghongfeng.---app----";
@@ -274,6 +345,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "仿闲鱼app的引导页/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zhenghongfeng.---app----";
@@ -300,6 +372,7 @@
 				BA4E0A8E1CB4D89E00339D7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
